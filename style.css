@@ -25,6 +25,10 @@ body {
     border:solid 5px white;
     background-color: brown;
 }
+.projet-2 {
+    border:solid 5px;
+    background-color: white;
+}
 .equipe {
     border: solid 5px;
     background-color: blueviolet;
@@ -32,4 +36,10 @@ body {
 .projet-3 {
     border:solid 5px;
     background-color: yellow;
+}
+#détails {
+    border:solid 5px;
+}
+#liens {
+    border:solid 5px;
 }
