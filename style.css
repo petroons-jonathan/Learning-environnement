@@ -1,0 +1,35 @@
+body {
+    border: solid 5px;
+    background-color:red;
+    margin:auto;
+}
+#attention {
+    border:solid 5px white;
+    text-align:center;
+    margin-top: 0;
+    background-color: rgb(59, 175, 13);
+}
+
+#cat {
+    border:solid 5px;
+    margin-left:500px;
+}
+
+#attention-2 {
+    border:solid 5px;
+    text-align:center;
+    background-color: blue;
+}
+
+.projet {
+    border:solid 5px white;
+    background-color: brown;
+}
+.equipe {
+    border: solid 5px;
+    background-color: blueviolet;
+}
+.projet-3 {
+    border:solid 5px;
+    background-color: yellow;
+}
