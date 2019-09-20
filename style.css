@@ -1,45 +1,174 @@
-body {
-    border: solid 5px;
-    background-color:red;
-    margin:auto;
+/* corps de la page*/
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    font-family: 'Arial';
+    background-color:#51FF00;
 }
-#attention {
-    border:solid 5px white;
+/* Haut de la page*/
+/* En-tête de la page avec titre*/
+header{
+    overflow: hidden;
+    background-color: #13E80C;
+    padding: 0;
+    margin-top:0px;
+    text-shadow: 1px 1px 2px #0DFF3E, 0 0 0.2em #0DFF3E;
+}
+header h1{
+    margin:auto;
+    float: center;
+    color: black;
+    font-size:40px;
+}
+header h1 a{
+    color:black;
+    text-decoration: none;
+}
+header h1 a:hover {
+    color: white;
+}
+#Titre {
     text-align:center;
     margin-top: 0;
     background-color: rgb(59, 175, 13);
 }
+/* Menu de naviguation top */
 
-#cat {
-    border:solid 5px;
-    margin-left:500px;
+header nav{
+    float: right;
+    margin-right:130px;
+}
+header nav ul{
+    padding: 0;
+    margin-bottom:3px;
+
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    display: block;
+    width: 130px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #51FF00;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 0.2em #000000;
+    text-align: center;
+    padding: 8px;
+    font-variant: small-caps;
+    border-bottom: 3px solid rgb(148, 228, 0);
 }
 
-#attention-2 {
-    border:solid 5px;
-    text-align:center;
-    background-color: blue;
+header nav ul li a:hover{
+    border-bottom: 3px solid #ECECEC;
 }
 
+/* Haut/milieu de la page et texte intermédiaire*/
 .projet {
-    border:solid 5px white;
-    background-color: brown;
+    margin-top:10px;
+    font-size:24px;
+    margin-bottom: -30px;
+    color: black;
+    text-shadow: 1px 1px 2px #51FF00, 0 0 0.2em #51FF00;
 }
-.projet-2 {
-    border:solid 5px;
-    background-color: white;
+
+/* titre intermédiaire Projet*/
+#project {
+    text-align: center;
 }
+
+/*bloc contenant l'équipe*/
 .equipe {
-    border: solid 5px;
-    background-color: blueviolet;
+    padding-top:5px;
+    text-align:center;
 }
-.projet-3 {
-    border:solid 5px;
-    background-color: yellow;
+
+/* titre intermédiaire Relog*/
+#relog {
+    text-align: center;
 }
+
+/*titre intermédiaire Détails*/
 #détails {
-    border:solid 5px;
+    text-align:center;
 }
+
+/*titre intermédiaire Liens*/
 #liens {
     border:solid 5px;
+}
+
+/*titre intermédiaire Contact*/
+#contact {
+    border: solid 3px white;
+}
+
+/*titre intermédiaire Mot de la fin*/
+#mot-fin {
+    border:solid 3px white;
+}
+
+.equipe li {
+    display: inline-block;
+    padding-bottom: 0;
+}
+/*création des boutons */
+.button {
+    background-color: rgb(9, 212, 15); /* Green */
+    border-radius: 12px;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top:-10px;
+}
+
+/* positon par rapport au bloc*/
+.list-team li{
+    margin-top: 0px;
+    padding-top:40px;;
+}
+
+/* effet des bouton au survol*/
+.list-team a:hover{
+    color: #51FF00;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 0.2em #000000;
+}
+.equipe ul li{
+    list-style-type: none;
+}
+
+.texte {
+    border:solid white 3px;
+    width:900px;
+    height: 400px;
+    font-size: 25px;
+    padding:5px;
+    text-align: center;
+    text-justify: distribute-all-lines;
+}
+#bloctexte {
+    border:solid white 3px;
+    padding: 45px;
+    
+}
+.texte2 {
+    border:solid white 3px;
+    width:900px;
+    height: 300px;
+    font-size: 25px;
+    padding:5px;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    background-color: #0DFF3E;
+}
+#bloctexte2 {
+    border:solid white 3px;
+    padding: 45px;
+    background-color: white;
 }
